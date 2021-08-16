@@ -10,7 +10,7 @@ public class EmployeeDao {
 	
 	@Autowired
 	EmployeeRep empRepo;
-	
+	//this is to fetch employee data 
 	public Employee getEmp(Long id) {
 		return empRepo.getById(id);
 		
