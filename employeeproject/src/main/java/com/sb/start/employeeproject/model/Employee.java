@@ -18,7 +18,7 @@ public class Employee {
 	Long id;
 	
 	String name;
-	
+	//empty constuctor
 	public Employee() {}
 
 	public Employee(Long id, String name) {
